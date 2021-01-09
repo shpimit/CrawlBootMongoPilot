@@ -1,0 +1,9 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017
+      database: MyDatabase
